@@ -1,0 +1,23 @@
+# 敏感配置(数据库密码等,严禁入库)
+.env
+
+# 运行日志(每日切分,自动生成)
+logs/
+*.log
+
+# Python 字节码缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 虚拟环境
+venv/
+.venv/
+
+# macOS 系统文件
+.DS_Store
+
+# IDE / 规划文档
+.trae/
+.vscode/
+.idea/
